@@ -1,0 +1,17 @@
+{
+  "name": "rfduino",
+  "version": "0.0.1",
+  "description": "Library for rfduino.",
+  "dependencies": {
+    "noble": "",
+	  "underscore": ""
+  },
+  "node-red": {
+    "nodes": {
+      "rfduino": "rfduino.js"
+    }
+  },
+  "engines": {
+     "node": ">=0.10.22"
+   }
+}
